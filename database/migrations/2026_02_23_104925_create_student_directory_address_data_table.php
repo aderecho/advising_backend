@@ -33,9 +33,9 @@ return new class extends Migration
                 ->on('student_directory')
                 ->cascadeOnDelete();
             $table->index([
-                'present_city_municipality',
-                'present_province',
-                'present_country',
+                'city_municipality',
+                'province',
+                'country',
             ]);
 
 
